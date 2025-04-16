@@ -1,10 +1,10 @@
-"use strict";
+"use strict"; // my name is sabita
 
-// DATA TYPES IN JAVASCRIPT - 
+// DATA TYPES IN JAVASCRIPT -
 
 // What is Data Types in Javascript?
-// Data types describe the different types or kinds of data that we're gonna be working with 
-// and storing in variables. In Javascript, there are five basic, or primitive, types of data. 
+// Data types describe the different types or kinds of data that we're gonna be working with
+// and storing in variables. In Javascript, there are five basic, or primitive, types of data.
 // The five most basic types of data are strings, numbers, booleans, undefined, and null.
 
 // In Javascript, we exclusively do not define the data type of the variable seperately.
@@ -26,7 +26,7 @@ if (typeof age === "number") {
 	console.log(" Your Data Type is not number!");
 }
 
-// ***** PRIMITIVE Data Types ***** 
+// ***** PRIMITIVE Data Types *****
 
 // There are 6 Data Types in JavaScript which are primitive types-
 // *undefined : typeof instance === "undefined"
@@ -98,15 +98,14 @@ console.log(200 - "raju"); // The output is NaN which means not a number.
 // Example -
 console.log(" " + 12);
 
-
 // Now, let's look at some interview Questions -
 
 // 1) What is the difference between null and undefined in javascript?
-//=> Answer - Undefined means a variable has been declared but has yet not been assigned a value. 
+//=> Answer - Undefined means a variable has been declared but has yet not been assigned a value.
 // Null is an assignment value. It can be assigned to a variable as a representation of no value.
 
 // 2) What is NaN in javascript?
-// => Answer - NaN is a property of the global object. In other words, it is a variable in global scope. In modern browsers, 
+// => Answer - NaN is a property of the global object. In other words, it is a variable in global scope. In modern browsers,
 // NaN is a non-configurable, non-writable property. Even when this is not the case, avoid overriding it.
 // the initial value of NaN is Not a Number.
 // Demostration -
@@ -117,22 +116,20 @@ console.log(isNaN(muName));
 // Note - 1:09:52 hour is a doubt I could not understand in thapa technical.
 console.log("str".isNaN() === NaN);
 
-
 // ***** NON PRIMITIVE Data Types ******
 // Objects are non primitive data types in Javascript.
-
 
 // Arrays-
 
 // What is an Array in Javascript?
 // JavaScript Array is a single variable that is used to store elements of different data types. JavaScript arrays are zero-indexed. The Javascript Arrays are not associative in nature. Arrays are used when we have a list of items.
 
-// Example - 
+// Example -
 let arr1 = [1, 2, 55, 67, 34];
-console.log(typeof (arr1));
+console.log(typeof arr1);
 
 // difference between index.js and script.js?
 
 let z = 12;
 let d = 12;
-console.log("is z =12 ?", (z == d));
+console.log("is z =12 ?", z == d);
