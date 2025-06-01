@@ -1,5 +1,13 @@
 "use strict";
+let Qqre = 10,
+	regh = 12,
+	sum;
+sum = Qqre + regh;
+console.log(sum);
+console.log(mybrothname);
 
-console.log(
-	"This files is created to quickly revisve javascript chapters and practise it here..."
-);
+// global scope
+const address = "texas, usa";
+var mybrothname = "ishan";
+const age = 18;
+console.log(mybrothname);
