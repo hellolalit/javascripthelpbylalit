@@ -1,8 +1,7 @@
-# Javascript Course by Mr. Kumar.
-
 # ⚠️ NOTICE !
 THIS PROJECT HAS BEEN DROPPED on 19 march 2025! PLEASE STOP FOLLOWING THIS RESOURCE FOR YOUR Javascript LEARNING/ VERIFICATION OF MY KNOWLEDGE ETC ASAP! ANY FURTHER CHANGES WILL BE NOTIFIED IN FUTURE....
 
+# Javascript Course by Mr. Kumar.
 
 # **Copyright Information -**
 
