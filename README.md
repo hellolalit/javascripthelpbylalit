@@ -1,9 +1,10 @@
 # Javascript Course by Mr. Kumar.
 
 # ⚠️ NOTICE !
-THIS PROJECT HAS BEEN DROPPED on 19 march 2025! PLEASE STOP FOLLOWING THIS RESOURCE FOR YOUR HTML LEARNING/ VERIFICATION OF MY KNOWLEDGE ETC ASAP! ANY FURTHER CHANGES WILL BE NOTIFIED IN FUTURE....
+THIS PROJECT HAS BEEN DROPPED on 19 march 2025! PLEASE STOP FOLLOWING THIS RESOURCE FOR YOUR Javascript LEARNING/ VERIFICATION OF MY KNOWLEDGE ETC ASAP! ANY FURTHER CHANGES WILL BE NOTIFIED IN FUTURE....
 
-**Copyright Information -**
+
+# **Copyright Information -**
 
 **The source code of this project is openly available because my intention is to facilitate beginners in learning JavaScript without any difficulties. It also serves as proof of my proficiency in JavaScript for non-technical individuals. You are allowed to download this project for learning purposes. However, it is essential to note that you are not permitted to misuse, modify, download, steal, or engage in any similar activities with the code. Furthermore, you are not allowed to reuse the code for personal gain, such as building something that generates income or starting a SaaS product using this project. or anything similar!**
 
