@@ -1,20 +1,20 @@
-@font-face {
+/* @font-face {
     font-family: ABeeZee;
     src: url(fonts/ABeeZee_Font/ABeeZee_Regula_\ 400.ttf);
-}
+} */
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* scroll-behavior: smooth; */
-    /* box-sizing: border-box; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
     /* width: 100vw; */
     /* height: 100vh; */
 }
 
 a {
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
 /* --- Global CSS --- */
@@ -31,7 +31,6 @@ a {
 
 
 .body-container {
-    /* min-height: 100vh; */
     padding: 1rem;
     background: linear-gradient(90deg, rgba(37, 138, 252, 0.100) 27.64%, rgba(136, 91, 255, 0.100) 43.42%, rgba(213, 23, 247, 0.100) 58.83%, rgba(246, 173, 109, 0.100) 81.81%);
 }
@@ -52,14 +51,14 @@ a {
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 4px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
-    letter-spacing: 1.4px;
+    letter-spacing: 0.4px;
 }
 
 .global-btn-prop:hover {
     transition: 0.2s ease;
-    transform: translatey(-10%);
+    transform: translatey(-5%);
 }
 
 .global-btn-prop:active {
@@ -70,20 +69,20 @@ a {
 }
 
 .previous-chapter-btn {
-    background: rgb(255, 230, 0);
+    background: rgb(255, 235, 52);
 }
 
 .previous-chapter-btn:hover {
-    background: rgb(255, 170, 0);
+    background: rgb(211, 211, 3);
 }
 
 .home-page-btn {
-    background: rgb(3, 180, 3);
+    background: rgb(67, 232, 6);
     color: white;
 }
 
 .home-page-btn:hover {
-    background: rgb(67, 232, 6);
+    background: rgb(3, 180, 3);
 }
 
 .next-chapter-btn {
@@ -117,7 +116,7 @@ a {
 
 .submit-button:hover {
     transition: 0.2s ease;
-    transform: translatey(-10%);
+    transform: translatey(-5%);
 }
 
 .submit-button:active {
