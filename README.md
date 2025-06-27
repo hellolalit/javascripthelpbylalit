@@ -77,7 +77,7 @@ Please create a different branch in your computer when not fixing a issue and wo
 
 # **/ Links Disclaimer - /**
 
-The Entire project uses Grabify Links to tract users done for identify purpose. The Data is not store by Lalit himsedf but Grabify does stores data about the users who clicks on any of the links. Please refer to their privacy policy of Grabify before using the live hosted links.
+The Entire project uses Grabify Links to tract users done for identify purpose. The Data is not store by MR. Kumar himsedf but Grabify does stores data about the users who clicks on any of the links. Please refer to their privacy policy of Grabify before using the live hosted links.
 
 # **/ Information- /**
 
