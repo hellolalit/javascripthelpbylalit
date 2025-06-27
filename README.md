@@ -10,7 +10,7 @@ THIS PROJECT HAS BEEN DROPPED on 19 march 2025! PLEASE STOP FOLLOWING THIS RESOU
 **Any violation of these terms will result in legal action against you!, and you will be held accountable for the consequences. This project is not made public with the intention of enabling others to profit from it. I kindly request that you respect this decision and refrain from misusing the project.**
 
 
-**Motive/Goal of this Project/Repo -**
+# **Motive/Goal of this Project/Repo -**
 
 Beginners often find themselves following multiple sources simultaneously when learning JavaScript. This can lead to confusion, making their learning journey less effective and leaving them dissatisfied. Many people even give up on learning JavaScript because of these challenges.
 
@@ -22,7 +22,7 @@ Now, the aim of this project is twofold. Firstly, it serves as tangible proof of
 
 Moreover, it provides a unique and interactive learning experience through projects organized by chapters. As the project evolves, the goal is to transform it into a recognizable brand. This transformation includes generating revenue, enabling active contributors to receive rewards and monetary prizes. In some instances, the project may even lead to hiring dedicated individuals who share a commitment to its success.
 
-**/ How to take up this course ? /**
+# **/ How to take up this course ? /**
 
 1) Visit this youtube link (no trackers installed) - https://www.youtube.com/watch?v=KGkiIBTq0y0&t=29805s (video is in hindi). For english audience, Please visit this youtube channel - https://www.youtube.com/watch?v=2md4HQNRqJA&list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD (by any chance if the contents and chapter syllabus does not match then you can find a different youtube video and follow this repo's .js files to understand the concept). 
 
@@ -68,20 +68,20 @@ Please check the steps below to start working on this project-
 > After commpleting please raise a PR from your current branch to "testing" branch. (Don't try to raise a PR to "prod" as that is live production branch !!! Changes will be pushed to "prod" after proper testing.
 
 
- **/ How do I raise a PR? /**
+# **/ How do I raise a PR? /**
 
 Please create a different branch in your computer when not fixing a issue and working on a diffenet thing (like new topic) {example - if working on a new chapter Promises then create a branch named "promises"} and raise a PR but when working on "Issuses" then please switch to "correction" branch and raise a PR to "testing" branch.
 
-**/ Links Disclaimer - /**
+# **/ Links Disclaimer - /**
 
 The Entire project uses Grabify Links to tract users done for identify purpose. The Data is not store by Lalit himsedf but Grabify does stores data about the users who clicks on any of the links. Please refer to their privacy policy of Grabify before using the live hosted links.
 
-**/ Information- /**
+# **/ Information- /**
 
 Your contributions are be highly appreciated and helpful for everyone, and if possible, there might be rewards given to you in future. If you need assistance, guidance, or have any questions related to the project, please email me on reachlalitkumar89@gmail.com. To solve issues based on your skill level/do open source contribution, please go to the "Issues" tab, pick an issue based on your skill level, or check the code for any issues (syntax, logic, spelling mistakes, etc.) and raise them in the "Issues" tab. For further inquiries or expressing your interest in contributing, contact reachkumarlalit89@gmail.com. Briefly explain your intentions so that I can assist you accordingly.
 
 
-**/ Resources - /**
+# **/ Resources - /**
 
 The Learning of Javascript is done in combination of 3 youtube channels- Thapa Technical, Tech Gun and Chai aur Code youtube channels. The chapter orders are listed below -
 
