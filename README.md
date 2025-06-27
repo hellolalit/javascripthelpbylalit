@@ -35,7 +35,7 @@ How to download this project in your Local Computer and run it ?
 
 > Install Git in your Windows/LInux/Mac OS,
 
-> DO git clone https://github.com/lalitkumarthakur/thapatechnicalJavaScript_course.git ,
+> DO git clone https://github.com/kumardevelops/javascript ,
 
 > Configure git with your account for commits and setup,
 
