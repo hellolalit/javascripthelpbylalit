@@ -18,11 +18,14 @@ Recognizing the major problem of disorganized information, I decided to tackle i
 
 Although it may seem simple, disorganized information is a significant problem. I, myself, used to follow three different YouTube channels to understand the same topic, which raised concerns for me which resulted this Project.
 
-Now, the aim of this project is twofold. Firstly, it serves as tangible proof of my proficiency in JavaScript. Secondly, it is designed to assist beginners and non-tech individuals in easily learning JavaScript. Additionally, the project aims to showcase my JavaScript expertise to prospective clients, HR managers, and companies.
+Now, the aim of this project is twofold. Firstly, it serves as tangible proof of my proficiency in JavaScript. Secondly, it is designed to assist beginners and non-tech individuals in easily learning JavaScript. Additionally, the project aims to showcase my JavaScript expertise to prospective clients, HR managers, companies and more.
 
-Moreover, it provides a unique and interactive learning experience through projects organized by chapters. As the project evolves, the goal is to transform it into a recognizable brand. This transformation includes generating revenue, enabling active contributors to receive rewards and monetary prizes. In some instances, the project may even lead to hiring dedicated individuals who share a commitment to its success.
+Moreover, it provides a unique and interactive learning experience through projects organized by chapters. 
 
-# **/ How to take up this course ? /**
+As the project evolves, the goal is to transform it into a recognizable brand. 
+This transformation includes generating revenue, enabling active contributors to receive rewards and monetary prizes. In some instances, the project may even lead to hiring dedicated individuals who share a commitment to its success.
+
+# **How to take up this course ? **
 
 1) Visit this youtube link (no trackers installed) - https://www.youtube.com/watch?v=KGkiIBTq0y0&t=29805s (video is in hindi). For english audience, Please visit this youtube channel - https://www.youtube.com/watch?v=2md4HQNRqJA&list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD (by any chance if the contents and chapter syllabus does not match then you can find a different youtube video and follow this repo's .js files to understand the concept). 
 
@@ -52,7 +55,7 @@ How to download this project in your Local Computer and run it ?
 
 6) Follow along the videos chapter wise then come back to script.js of that chapter (ex- ch9 ) and practise what you understood  and continue the process.
 
-7) To see live preview click here - https://lalitkumarthakur.github.io/javascripthelpbylalit/
+7) To see live preview click here - https://kumardeveloper.github.io/javascript/
 
 
 **/ How canI start working/contributing on this project? /**
@@ -78,7 +81,7 @@ The Entire project uses Grabify Links to tract users done for identify purpose. 
 
 # **/ Information- /**
 
-Your contributions are be highly appreciated and helpful for everyone, and if possible, there might be rewards given to you in future. If you need assistance, guidance, or have any questions related to the project, please email me on reachlalitkumar89@gmail.com. To solve issues based on your skill level/do open source contribution, please go to the "Issues" tab, pick an issue based on your skill level, or check the code for any issues (syntax, logic, spelling mistakes, etc.) and raise them in the "Issues" tab. For further inquiries or expressing your interest in contributing, contact reachkumarlalit89@gmail.com. Briefly explain your intentions so that I can assist you accordingly.
+Your contributions are be highly appreciated and helpful for everyone, and if possible, there might be rewards given to you in future. If you need assistance, guidance, or have any questions related to the project, please email me on namastemrkumar@protonmail.com. To solve issues based on your skill level/do open source contribution, please go to the "Issues" tab, pick an issue based on your skill level, or check the code for any issues (syntax, logic, spelling mistakes, etc.) and raise them in the "Issues" tab. For further inquiries or expressing your interest in contributing, contact namastemrkumar@protonmail.com. Briefly explain your intentions so that I can assist you accordingly.
 
 
 # **/ Resources - /**
@@ -90,3 +93,4 @@ The Learning of Javascript is done in combination of 3 youtube channels- Thapa T
 3. ch10 added from "tech gun" youtube channel.
 4. Ch7 - for...of and for...in loop added from "Chai aur code" youtube channel.
 5. ch10 - array methods added from "Chai aur code" youtube channel.
+6. A relearning from Harshit's JavaScript | Beginning to Mastery Complete Tutorial (Part 1) Course (link - https://www.youtube.com/watch?v=chx9Rs41W6g). (All chapters in 2025)
