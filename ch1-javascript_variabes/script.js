@@ -1,29 +1,32 @@
 "use strict";
 
-// variables in javascript - 
+// Variables in javascript -
 
-// What is variables in javascript? 
-// A JavaScript variable is simply a name of storage location. 
-// Variables are Containers for Storing Data,
-// There are two types of variables in JavaScript : local variable and global variable.
+// What is variables in javascript? A JavaScript variable is simply a name of storage location.
+// Variables are Containers for Storing Data, There are two
+// types of variables in JavaScript : local variable and global variable.
 
 // Variable declaration rules -
 // 1) Variable names should start only with Letter or $ or _ (underscore). Anything other than that
 // is not accepted.
 // So var 12raj is invalid and raj12 is Valid.
-// Example - 
+// Example -
 let $sam = true; // variable name starting with '$' is valid.
-console.log("Variable declaration with '$' works? " + $sam + "\n");
+document.write(
+  "<br /> Variable declaration with '$' works? " + $sam + "\n<br />",
+);
 const raj12 = true;
-console.log(`Variable declaration with raj12 works? ${raj12}`);
+document.write(`Variable declaration with raj12 works? ${raj12}\n<br /><br />`);
+// const 12raj = false;
+// document.write(`Variable declaration with raj12 works? ${12raj}`); This dosen't works as this variable declaration is wrong.
+// So, we have comment it.
 
 // 2) Javascript is Case sensitive so myAge and myage is different.
-// Example - 
+// Example -
 let myAge = 12;
 let myage = 12;
-console.log(`myAge == myage? ${myAge == myage}`); // but how this is working?
-console.log(`myAge === myage? ${myAge === myage}`); // but how this is working?
-
+document.write(`myAge == myage? ${myAge == myage}\n<br />`);
+document.write(`myAge === myage? ${myAge === myage}\n<br /><br />`);
 
 // 3)Variable name cannot have spaces.
 
@@ -34,8 +37,7 @@ console.log(`myAge === myage? ${myAge === myage}`); // but how this is working?
 // 6) Var is such a variable declarer who is depratiated.
 var namee = "Lal";
 
-
-// Syntax for variable declaration for - var/let/const (which is variable declaration type) is - 
+// Syntax for variable declaration for - var/let/const (which is variable declaration type) is -
 // var/let/const variable_name = "value";
 // example for string variable -> let/comst/var post = "engineer";
 // example for integer variable -> let/const/var age = 12;
@@ -50,15 +52,22 @@ let my_power = 12;
 // it should be the default variable declarer until let is required.
 const my_age = 23;
 
-console.log(namee + " power is " + my_power + "kg and his age is " + my_age);
+document.write(
+  namee +
+    " power is " +
+    my_power +
+    "kg and his age is " +
+    my_age +
+    "<br /><br />",
+);
 
 const _power__12 = 14; // more than 1 underscore can be used to declare variable and it is valid but,
 // let raju^%kalu = "sick"; special characters like % and ^ are not allowed for variable declarations and that is invalid.
 
 // 9) Var allows to declare same variable 2 times with same name but let does not allows that.
-// example - 
+// example -
 
 var gigu = "avnish";
-var gigu = "rajesh"; // but here gigu is reassigned by "rajesh" value. 
-console.log(gigu);
-console.log(gigu);
+var gigu = "rajesh"; // but here gigu is reassigned by "rajesh" value.
+document.write(gigu + "<br />");
+document.write(gigu);

@@ -21,9 +21,9 @@ const age = 32;
 // The entire course documented is from Thapa technical Javascript Video and it either follows ES20 or ES21.
 
 if (typeof age === "number") {
-	console.log(" Your Data Type is number!");
+  document.write(" Your Data Type is number!");
 } else {
-	console.log(" Your Data Type is not number!");
+  document.write(" Your Data Type is not number!");
 }
 
 // ***** PRIMITIVE Data Types *****
@@ -39,44 +39,44 @@ if (typeof age === "number") {
 // Let's Take a look at the datatypes one by one -
 // Undefined Data Types -
 let houseowner;
-console.log(houseowner);
-console.log(typeof houseowner);
+document.write(houseowner);
+document.write(typeof houseowner);
 // We can clearly see that upon printing the variable, it returns undefined and the typeof
 // operator does the same thing. It is because there is no value assigned to the variable.
 
 // Boolean Data Types -
 const chair = true;
-console.log(chair);
-console.log(typeof chair);
+document.write(chair);
+document.write(typeof chair);
 // We can clearly see that upon printing the variable, it returns true and the typeof
 // operator returns undefined. It is because there is no value assigned to the variable.
 // And the condition matches whicb is true.
 
 // Number Data Types -
 const student_class = 12;
-console.log(student_class);
-console.log(typeof student_class);
+document.write(student_class);
+document.write(typeof student_class);
 // We can clearly see that upon printing the variable, it returns undefined and the typeof
 // operator does the same thing. It is because there is no value assigned to the variable.
 
 // String Data Types -
 const founder = "binod";
-console.log(founder);
-console.log(typeof founder);
+document.write(founder);
+document.write(typeof founder);
 // We can clearly see that upon printing the variable, it returns undefined and the typeof
 // operator does the same thing. It is because there is no value assigned to the variable.
 
 // BigInt Data Types -
 let biginteger = 212121212121212121212121212121212;
-console.log(biginteger);
-console.log(typeof biginteger);
+document.write(biginteger);
+document.write(typeof biginteger);
 // We can clearly see that upon printing the variable, it returns undefined and the typeof
 // operator does the same thing. It is because there is no value assigned to the variable.
 
 // Symbol Data Types -
 let dimbol = "dimboll";
-console.log(dimbol);
-console.log(typeof dimboll);
+document.write(dimbol);
+document.write(typeof dimboll);
 // We can clearly see that upon printing the variable, it returns undefined and the typeof
 // operator does the same thing. It is because there is no value assigned to the variable.
 
@@ -85,18 +85,18 @@ console.log(typeof dimboll);
 // When you add any number with any string then it will concatenate and display but in case of
 // substracted, it will do the mathematical operation. Example -
 
-console.log(9 + "6"); // The output is concatinated string
-console.log(9 + "Car"); // The output is concatinated string
+document.write(9 + "6"); // The output is concatinated string
+document.write(9 + "Car"); // The output is concatinated string
 
 // But when we do substraction with a number inside "" which makes it string, it works and does the mathematical operation and it is a bug is Javascript-
-console.log(200 - "12"); // The output is mathematical operation which is 118.
-console.log(200 - "raju"); // The output is NaN which means not a number.
+document.write(200 - "12"); // The output is mathematical operation which is 118.
+document.write(200 - "raju"); // The output is NaN which means not a number.
 // This is because (maybe) when javascript tried to substract, it fould it not a number and returned NaN.
 
 // Whe you add " " (which is a black single space) with any number and try to print then
 // That blank space (be it single or moe than one) will be printed along with the number in a concatinated Form.
 // Example -
-console.log(" " + 12);
+document.write(" " + 12);
 
 // Now, let's look at some interview Questions -
 
@@ -111,10 +111,10 @@ console.log(" " + 12);
 // Demostration -
 const myNumber = 6270897643;
 const muName = "Lila Raju";
-console.log(isNaN(myNumber)); // Printing the variable result with isNaN() method to check the result.
-console.log(isNaN(muName));
+document.write(isNaN(myNumber)); // Printing the variable result with isNaN() method to check the result.
+document.write(isNaN(muName));
 // Note - 1:09:52 hour is a doubt I could not understand in thapa technical.
-console.log("str".isNaN() === NaN);
+document.write("str".isNaN() === NaN);
 
 // ***** NON PRIMITIVE Data Types ******
 // Objects are non primitive data types in Javascript.
@@ -126,10 +126,10 @@ console.log("str".isNaN() === NaN);
 
 // Example -
 let arr1 = [1, 2, 55, 67, 34];
-console.log(typeof arr1);
+document.write(typeof arr1);
 
 // difference between index.js and script.js?
 
 let z = 12;
 let d = 12;
-console.log("is z =12 ?", z == d);
+document.write("is z =12 ?", z == d);

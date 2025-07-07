@@ -1,12 +1,8 @@
-/* @font-face {
-    font-family: ABeeZee;
-    src: url(fonts/ABeeZee_Font/ABeeZee_Regula_\ 400.ttf);
-} */
-
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:
+        "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     scroll-behavior: smooth;
     box-sizing: border-box;
     /* width: 100vw; */
@@ -29,10 +25,15 @@ a {
     font-weight: 800 !important;
 }
 
-
 .body-container {
     padding: 1rem;
-    background: linear-gradient(90deg, rgba(37, 138, 252, 0.100) 27.64%, rgba(136, 91, 255, 0.100) 43.42%, rgba(213, 23, 247, 0.100) 58.83%, rgba(246, 173, 109, 0.100) 81.81%);
+    background: linear-gradient(
+        90deg,
+        rgba(37, 138, 252, 0.1) 27.64%,
+        rgba(136, 91, 255, 0.1) 43.42%,
+        rgba(213, 23, 247, 0.1) 58.83%,
+        rgba(246, 173, 109, 0.1) 81.81%
+    );
 }
 
 .chapter-heading {
@@ -111,7 +112,6 @@ a {
     padding: 0.3rem 1.5rem !important;
     margin-left: 1rem;
     border-radius: 0.3rem;
-
 }
 
 .submit-button:hover {

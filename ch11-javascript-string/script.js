@@ -113,15 +113,6 @@ document.write(`"<br /> The 5th index in "Mr Kumar" string- `+ myName[5]+`<br/><
 
 
 // -----------------------------X-------------------------------
-// JavaScript String Length
-
-// To find the length of a string, you can use built-in length property. For example,
-
-const ap = "hello";
-document.write(`Length of ` +ap+` is - `+ap.length); // 5
-
-
-// -----------------------------X-------------------------------
 // JavaScript String Objects
 
 // You can also create strings using the new keyword. For example,
@@ -139,12 +130,25 @@ console.log(typeof b1); // "object"
 
 
 // -----------------------------X-------------------------------
+// String Methods -
+
+// JavaScript String Length
+
+// To find the length of a string, you can use built-in length property. For example,
+
+const ap = "hello";
+document.write(`Length of ` + ap + ` is - ` + ap.length); // 5
+
+// JavaScript String charAt() -
+// The charAt() method returns the character at a specified index (position) in a string:
+
+
 // Javascript String Concatenation -
 // String concatenation means joinIg two or more stings together. Ths can be done by using '+' operator or by using concat(). For example,
 
 // Using '+' operator -
 let str = "my name ";
-let str2 = "is lalu";
+let str2 = "is Lulu";
 console.log(str + str2);
 
 // Using concat() method -
