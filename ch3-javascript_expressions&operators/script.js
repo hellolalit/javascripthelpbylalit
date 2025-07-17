@@ -25,7 +25,9 @@ let luck = 'does not favour'; // this is also allowed.
 // let opportunities = "Are "not coming!!""; // this is not allowed.
 //So, to fix this issue, use can use \ or `` backticks shown below -
 let opportunities = `Finally, "Came !!!"`;
-document.write(`opportunities? ${opportunities}`);
+document.write(`<br /> job? ${job}`);
+document.write(`<br /> luck? ${luck}`);
+document.write(`<br /> opportunities? ${opportunities} <br /> <br />`);
 
 /*
     There are 7 types of Operators in JavaScript-
@@ -52,23 +54,39 @@ const y = 5;
 // If you want to use === or == operator to compare x and y values then it will only work when they are not concatenated with anyone and is printed seperately. 
 
 //Example -
-console.log("Is x " + x + " equals to y " + y + "? " + (x === y)); // it returns false and does not prints the string in console.log which should not happen.This is happening because it is comparing the enrire string with y.
-console.log(x === y); // it returns true.
-console.log(x == y); // it returns true.
+document.write("<br /> Is x " + x + " equals to y " + y + "? " + (x === y) + "<br />"); // it returns false and does not prints the string in document.write which should not happen.This is happening because it is comparing the enrire string with y.
+document.write("<br /><br />" + x === y + ""); // it returns true.
+document.write("<br /><br />" + x == y + ""); // it returns true.
 // Solution is use `` to solve the issue. Example:
-console.log(`Is x and y are equal? ${x === y} \n\n\n`);
+document.write(`Is x and y are equal? ${x === y} \n\n\n`);
 // We saw above that how the assignment operator '=', '==', and '===' works.
 
 
-// *****  2) Arithmetic Operator -  *****
-// Arithmetic Operators takes numerical values (either literals or variables) as their operands and
-// returns a single numeric value.
+/* *****  2) Arithmetic Operator -  *****
+Arithmetic Operators takes numerical values (either literals or variables) as their operands and
+returns a single numeric value.
+*/
 
-console.log("3+3? " + 3 + 3); // here '+' is addition operator.
-console.log(`3-3? ${3 - 3}`); // here '-' is substraction operator.
-console.log("12/3? " + 12 / 3); // here '/' is division operator.
-console.log("3*3? " + 3 * 3); // here '*' is multiplication operator.
-console.log("3%3? " + (3 % 3) + "\n\n\n"); // here '%' is remainder operator. '%' is also called "modular operator".
+/*
+Commonly Used Arithmetic Operators-
+
+Operator	Name	            Example
++	        Addition	        3 + 4  // 7
+-           Subtraction         5 - 3  // 2
+*           Multiplication      2 * 3  // 6
+/           Division            4 / 2  // 2
+%           Remainder           5 % 2  // 1
+++          Increment           ++5 or 5++  // 6
+--          Decrement           --4 or 4--  // 3
+**          Exponentiation      4 ** 2  // 16
+
+*/
+
+document.write("3+3? " + 3 + 3); // here '+' is addition operator.
+document.write(`3-3? ${3 - 3}`); // here '-' is subtraction operator.
+document.write("12/3? " + 12 / 3); // here '/' is division operator.
+document.write("3*3? " + 3 * 3); // here '*' is multiplication operator.
+document.write("3%3? " + (3 % 3) + "\n\n\n"); // here '%' is remainder operator. '%' is also called "modular operator".
 
 // *** Important ***
 // Increment and Decrement operator -
@@ -77,9 +95,9 @@ let xz = 5;
 let numze = 12;
 ++xz; // prefix operator.
 numze++; // postfix operator.
-console.log(`Postfix and Prefix operators - `);
-console.log(`Increased Valued prefix of xz = ${xz}`);
-console.log(`Increased postfix value of numze = ${numze} \n\n`);
+document.write(`Postfix and Prefix operators - `);
+document.write(`Increased Valued prefix of xz = ${xz}`);
+document.write(`Increased postfix value of numze = ${numze} \n\n`);
 
 // There are 2 types of increment and decrement operators -
 // postfix - operand++ / operand-- (example xz++ or xz--)
@@ -97,15 +115,15 @@ const ab = 12;
 const bc = "12";
 const cc = 32;
 
-console.log(`12 is equals to 12? ${12 == 12}`); // here '==' is quality operator. which check weather 2 operand are qeual or not.
-console.log(`12's data type is equals to "12"s datatype?  ${12 === "12"}`); // here '===' is strict equality operator operator check weather the datatype of the operands are equal or not.
-console.log('"12" is not equals to 32?' + bc != cc); // here '!=' is inequality operator.
+document.write(`12 is equals to 12? ${12 == 12}`); // here '==' is quality operator. which check weather 2 operand are qeual or not.
+document.write(`12's data type is equals to "12"s datatype?  ${12 === "12"}`); // here '===' is strict equality operator operator check weather the datatype of the operands are equal or not.
+document.write('"12" is not equals to 32?' + bc != cc); // here '!=' is inequality operator.
 // why "" does not work with above console.log()s?
 
-console.log(`Is 12 greater than 11? ${12 > 11}`); //here '>' is greater than operator and '<' is lessthan.
-console.log(`Is 12 greater than equals to 11? ${12 >= 11}`); // here '>=' is greater than equals to than operator and '<=' is less than equals to than operator.
-console.log(`Is 12 less than 11? ${12 < 11}`); //here '<' is less than operator and '<' is lessthan.
-console.log(`Is 12 less than equals to 11? ${12 <= 11} \n\n\n`); // here '<=' is greater than equals to than operator.
+document.write(`Is 12 greater than 11? ${12 > 11}`); //here '>' is greater than operator and '<' is lessthan.
+document.write(`Is 12 greater than equals to 11? ${12 >= 11}`); // here '>=' is greater than equals to than operator and '<=' is less than equals to than operator.
+document.write(`Is 12 less than 11? ${12 < 11}`); //here '<' is less than operator and '<' is lessthan.
+document.write(`Is 12 less than equals to 11? ${12 <= 11} \n\n\n`); // here '<=' is greater than equals to than operator.
 
 // *****  4) Logical Operator -  *****
 // Logical operators are typically used with Boolean (logical/true/false) values.
@@ -115,50 +133,50 @@ let aa = 22;
 let bf = 21;
 
 // 1) Logical AND (&&) operator -
-//  The Logical AND (&&) operator (Logicl Conjuction) is used to check if the set of operands is
+//  The Logical AND (&&) operator (Logical Conjunction) is used to check if the set of operands is
 // true including all of it's operands is true else it returns false. Example -
 
-console.log(`is aa > bf and bf > 0? ${aa > bf && bf > 0}`); // it returns true because both the comparision is true.
-console.log(`is aa > bf and bf > 0? ${aa > bf && bf < 0} \n\n`); // it returns false because one of the comparision is  invalid/false.
+document.write(`is aa > bf and bf > 0? ${aa > bf && bf > 0}`); // it returns true because both the comparison is true.
+document.write(`is aa > bf and bf > 0? ${aa > bf && bf < 0} \n\n`); // it returns false because one of the comparison is  invalid/false.
 
 // 2) Logical OR (||) operator -
-//  The Logical OR (||) operator (Logicl disjuction) is used to check if the set of operands is
-// true including only one of it's operands is true else it returns false when all of the condition/comparision is false. Example -
+//  The Logical OR (||) operator (Logical disjunction) is used to check if the set of operands is
+// true including only one of it's operands is true else it returns false when all of the condition/comparison is false. Example -
 
-console.log(`is aa > bf or bf >= 0? ${aa > bf || bf >= 0}`); // it returns true because both the comparision is true.
-console.log(`is aa < bf or bf <= 0? ${aa < bf || bf <= 0}\n\n`); // it returns false because all of the comparision is  invalid/false.
+document.write(`is aa > bf or bf >= 0? ${aa > bf || bf >= 0}`); // it returns true because both the comparison is true.
+document.write(`is aa < bf or bf <= 0? ${aa < bf || bf <= 0}\n\n`); // it returns false because all of the comparison is  invalid/false.
 
 // 3) Logical NOT (!) operator -
-// Logical NOT (!) is used to check that the operands/conditios/ vise versa is not satisfing with the checking.
-// it is also know as logical complememt/negation. Excample -
+// Logical NOT (!) is used to check that the operands/conditions/ vise versa is not satisfying with the checking.
+// it is also know as logical complement/negation. Example -
 
-console.log(`is aa not equals to bf? ${aa != bf}`); // it returns true because the checking is satisfied.
-console.log(`is aa not equals aa ${aa != aa}\n\n\n`); // it returns false because the checking is not satisfied.
+document.write(`is aa not equals to bf? ${aa != bf}`); // it returns true because the checking is satisfied.
+document.write(`is aa not equals aa ${aa != aa}\n\n\n`); // it returns false because the checking is not satisfied.
 
 // Challange time -
 
 // What is output of 3**3?
 
-console.log(`3**3? ${3 ** 3}`);
+document.write(`3**3? ${3 ** 3}`);
 // here ** is to the power which is doing 3*9 or 3**3 = 27.
 
 // what happens if we add a number with string?
 
-console.log(`12 + "12" = ? ${12 + "12"}\n\n\n`);
+document.write(`12 + "12" = ? ${12 + "12"}\n\n\n`);
 // since the number is concatinated so we are getting 1212 ehich is a string.
 
 // write a program to swap 2 numbers -
-console.log(`Write a program to swap 2 numbers - `);
+document.write(`Write a program to swap 2 numbers - `);
 let num1 = 224;
 let num2 = 443;
 let thirdvar = num1; // 224;
 num1 = num2; // 443;
 num2 = thirdvar; // 224;
 
-console.log(`num1 = ${num1}, num2 = ${num2}`);
+document.write(`num1 = ${num1}, num2 = ${num2}`);
 
 // write a program to swap 2 numbers without usingthird variable -
-console.log(`Write a program to swap 2 numbers without using 3rd variable - `);
+document.write(`Write a program to swap 2 numbers without using 3rd variable - `);
 
 let number = 112;
 let number2 = 221;
@@ -167,4 +185,4 @@ number = number + number2;
 number2 = number - number2;
 number = number - number2;
 
-console.log(`number1 = ${number}, number2 = ${number2}`);
+document.write(`number1 = ${number}, number2 = ${number2}`);
