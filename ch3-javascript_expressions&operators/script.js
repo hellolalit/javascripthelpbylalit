@@ -1,33 +1,44 @@
 "use strict";
 
-// EXPRESSIONS AND OPERATORS IN JAVASCRIPT - 
+// EXPRESSIONS AND OPERATORS IN JAVASCRIPT -
 
 // What is Expressions in JavaScript ?
-// JavaScript's expression is a valid set of literals, variables, operators, and expressions 
-// that evaluate a single value that is an expression. 
+// JavaScript's expression is a valid set of literals, variables, operators, and expressions
+// that evaluate a single value that is an expression.
 // This single value can be a number, a string, or a logical value depending on the expression.
 
 
 // What is operators in JavaScript ?
-// Operators are used to assign values, compare values, perform arithmetic operations, and more. 
+// Operators are used to assign values, compare values, perform arithmetic operations, and more.
 // There are different types of JavaScript operators: Arithmetic Operators. Assignment Operators.
 
-//example - 
+//example -
 5 + 20;
 // here 5 is operand, + is operator and 20 is operand.
 // and combination of operator and operand are called expressions.
 
-// To use " or ' quotations together which writing a string, we can use \ back slash. 
-// example - 
-let gf = "nahi hai"; // this is allowed.
-let gf2 = 'kese hogi'; // this is also allowed.
-// but, 
-// let gf3 = "Akaud "se bahar!!""; // this is not allowed. 
-//So, to fix this issue, use can use \ or `` backticks shown below - 
-let gf3 = `Akaud \"se bahar!!"`;
-console.log(`gf3? ${gf3}`);
+// To use " or ' quotations together which writing a string, we can use \ back slash.
+// example -
+let job = "i don't have"; // this is allowed.
+let luck = 'does not favour'; // this is also allowed.
+// but,
+// let opportunities = "Are "not coming!!""; // this is not allowed.
+//So, to fix this issue, use can use \ or `` backticks shown below -
+let opportunities = `Finally, "Came !!!"`;
+document.write(`opportunities? ${opportunities}`);
 
-// There are 6 types of Operators in JavaScript-
+/*
+    There are 7 types of Operators in JavaScript-
+
+    1.Arithmetic Operators
+    2.Assignment Operators
+    3.Comparison Operators
+    4.Logical Operators
+    5.Bitwise Operators
+    6.String Operators
+    7.Miscellaneous Operators
+
+*/
 
 
 // *****  1) Assignment Operator -  *****
