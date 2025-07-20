@@ -25,7 +25,7 @@
     src: url("../assets/fonts/source-sans-pro/SourceSansPro-Regular.otf");
 } */
 
-/* Imported Locally availabe fonts for backup. It will be used via js when the bunny font server is down */
+/* Imported Locally available fonts for backup. It will be used via js when the bunny font server is down */
 * {
     font-family: 'Source Sans Pro', sans-serif;
     box-sizing: border-box;

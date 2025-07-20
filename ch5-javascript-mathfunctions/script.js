@@ -1,15 +1,5 @@
 "use strict";
 
-// alert(
-// 	" From here the Links are broken! \n \
-// Lalit was running out of time so he had to focus on learning and in pressure has to  \
-// leave the entire dovelepment of this projects which enables any type of begineers  \
-// to learn JavaScript without any issue. \
-// \n\n \
-// He aplogiges for this and request you to rely on script.js files. \
-// Once he sorts some issues, he will complete this project! "
-// );
-
 // *** taken from tutorial point ***
 
 // Javascript Math Objects-
@@ -20,99 +10,94 @@
 // Syntax
 // The syntax to call the properties and methods of Math are as follows
 
-// var pi_val = Math.PI;
-// var sine_val = Math.sin(30);
+var pi_val = Math.PI;
+var sine_val = Math.sin(30);
+console.log(`Pi Value = ${pi_val} \n Sine Vale = ${sine_val}`);
 
-// Math Properties
-// Here is a list of all the properties of Math and their description.
+/* 
+ Math Properties
+ Here is a list of all the properties of Math and their description.
 
-// Sr.No.	Property & Description
-// 1	E \
-// Euler's constant and the base of natural logarithms, approximately 2.718.
+ Sr.No.	Property &  Description
+ 1	    E \         Euler's constant and the base of natural logarithms, approximately 2.718.
 
-// 2	LN2
-// Natural logarithm of 2, approximately 0.693.
+ 2	    LN2         Natural logarithm of 2, approximately 0.693.
 
-// 3	LN10
-// Natural logarithm of 10, approximately 2.302.
+ 3	    LN10        Natural logarithm of 10, approximately 2.302.
 
-// 4	LOG2E
-// Base 2 logarithm of E, approximately 1.442.
+ 4	    LOG2E       Base 2 logarithm of E, approximately 1.442.
 
-// 5	LOG10E
-// Base 10 logarithm of E, approximately 0.434.
+ 5	    LOG10E      Base 10 logarithm of E, approximately 0.434.
 
-// 6	PI
-// Ratio of the circumference of a circle to its diameter, approximately 3.14159.
+ 6	    PI          Ratio of the circumference of a circle to its diameter, approximately 3.14159.
 
-// 7	SQRT1_2
-// Square root of 1/2; equivalently, 1 over the square root of 2, approximately 0.707.
+ 7	    SQRT1_2     Square root of 1/2; equivalently, 1 over the square root of 2, approximately 0.707.
 
-// 8	SQRT2
-// Square root of 2, approximately 1.414.
+ 8	    SQRT2       Square root of 2, approximately 1.414.
 
-// In the following sections, we will have a few examples to demonstrate the usage of Math properties.
+ In the following sections, we will have a few examples to demonstrate the usage of Math properties. */
 
-// Math Methods
-// Here is a list of the methods associated with Math object and their description
+/*
+Math Methods
+Here is a list of the methods associated with Math object and their description
 
-// Sr.No.	Method & Description
-// 1	abs()
-// Returns the absolute value of a number.
+Sr.No.	Method & Description
+1	abs()
+Returns the absolute value of a number.
 
-// 2	acos()
-// Returns the arccosine (in radians) of a number.
+2	acos()
+Returns the arccosine (in radians) of a number.
 
-// 3	asin()
-// Returns the arcsine (in radians) of a number.
+3	asin()
+Returns the arcsine (in radians) of a number.
 
-// 4	atan()
-// Returns the arctangent (in radians) of a number.
+4	atan()
+Returns the arctangent (in radians) of a number.
 
-// 5	atan2()
-// Returns the arctangent of the quotient of its arguments.
+5	atan2()
+Returns the arctangent of the quotient of its arguments.
 
-// 6	ceil()
-// Returns the smallest integer greater than or equal to a number.
+6	ceil()
+Returns the smallest integer greater than or equal to a number.
 
-// 7	cos()
-// Returns the cosine of a number.
+7	cos()
+Returns the cosine of a number.
 
-// 8	exp()
-// Returns EN, where N is the argument, and E is Euler's constant, the base of the natural logarithm.
+8	exp()
+Returns EN, where N is the argument, and E is Euler's constant, the base of the natural logarithm.
 
-// 9	floor()
-// Returns the largest integer less than or equal to a number.
+9	floor()
+Returns the largest integer less than or equal to a number.
 
-// 10	log()
-// Returns the natural logarithm (base E) of a number.
+10	log()
+Returns the natural logarithm (base E) of a number.
 
-// 11	max()
-// Returns the largest of zero or more numbers.
+11	max()
+Returns the largest of zero or more numbers.
 
-// 12	min()
-// Returns the smallest of zero or more numbers.
+12	min()
+Returns the smallest of zero or more numbers.
 
-// 13	pow()
-// Returns base to the exponent power, that is, base exponent.
+13	pow()
+Returns base to the exponent power, that is, base exponent.
 
-// 14	random()
-// Returns a pseudo-random number between 0 and 1.
+14	random()
+Returns a pseudo-random number between 0 and 1.
 
-// 15	round()
-// Returns the value of a number rounded to the nearest integer.
+15	round()
+Returns the value of a number rounded to the nearest integer.
 
-// 16	sin()
-// Returns the sine of a number.
+16	sin()
+Returns the sine of a number.
 
-// 17	sqrt()
-// Returns the square root of a number.
+17	sqrt()
+Returns the square root of a number.
 
-// 18	tan()
-// Returns the tangent of a number.
+18	tan()
+Returns the tangent of a number.
 
-// 19	toSource()
-// Returns the string "Math".
+19	toSource()
+Returns the string "Math". */
 
 // In the following sections, we will have a few examples to demonstrate the usage of the methods associated with Math.
 
@@ -162,7 +147,7 @@ let num = [12, -10, 11, 15, 16, -0.6, -30, -25.65, 35, 99];
 // the above code will return NaN because Math.max() does not accepts array. We need "..." spread operator to brink out the elements of the array outside of that array container and this will put dim directly  as single single element. example -
 
 console.log(`\n\nMaximum number in Array num = ${Math.max(...num)}`);
-// in the above code, all the elements of the array came of of [] the array and got applied firectly to the Math.max() method.
+// in the above code, all the elements of the array came of of [] the array and got applied directly to the Math.max() method.
 
 // Finding the minimum number using math.min() method -
 
