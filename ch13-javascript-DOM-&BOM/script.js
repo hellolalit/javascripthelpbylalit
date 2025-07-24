@@ -4,9 +4,16 @@
 
 // Javascript DOM (Document Object Model) and BOM (Browser Object Model) -
 
-// theory will be applied later on because of time restrictions. Practical excaples -
+// theory will be applied later on because of time restrictions. Practical examples -
 
 // content taken from - https://www.youtube.com/watch?v=b1JpH4dz4SQ&list=PLMMMqnAjMvAX9nCd85ePmuQVWkIbjSc5i&index=10  GeekStack youtube channel. Video name - "JavaScript DOM Full Course | Document Object Model JavaScript Complete Course"
+
+/* Selecting elements -
+
+1) getElementByID() - */
+
+// let byid = document.getElementById("getbyid").value;
+// console.log(byid); error - undefined.
 
 const execute = () => {
 	// What is a window object?
@@ -14,16 +21,16 @@ const execute = () => {
 
 	// What do we see if we print window opject with a delay of 2 seconds ? -
 
-	setTimeout(() => {
-		console.log(window);
-	}, 2000);
-	// we see that there are multiple objects displayed in the console which says manythings about that specific window. We later use that information based on our requirements.
+	// setTimeout(() => {
+	// 	console.log(window);
+	// }, 2000);
+	// we see that there are multiple objects displayed in the console which says many things about that specific window. We later use that information based on our requirements.
 
 	// In the above example, we retrived windows object but how we can retrive/pull out document object from windows? Well, here an example -
 
-	setTimeout(() => {
-		console.log(`\n${window.document}`);
-	}, 2099);
+	// setTimeout(() => {
+	// 	console.log(`\n${window.document}`);
+	// }, 2099);
 	// The above example demostrates how document object can be retrived from windows object. It can also be done without writing "windows.".
 
 	// Let's understand HTML dom with the below diagram :

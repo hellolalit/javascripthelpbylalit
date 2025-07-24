@@ -1,159 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Javascript Date and Time</title>
-		<link rel="stylesheet" href="../css/style.css" />
-	</head>
-	<body class="body-container">
-		<main>
-			<h1 class="chapter-heading">Chapter 13 - Javascript DOM and BOM</h1>
 
-			<p class="global-para">
-				Please open console to see the output and visit script.js file to
-				understand whats going on.
-			</p>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Javascript Date and Time</title>
+	<link rel="stylesheet" href="../css/style.css" />
+</head>
 
-			<br />
-			<br />
+<body class="body-container">
+	<main>
+		<h1 class="chapter-heading">Chapter 13 - Javascript DOM and BOM</h1>
 
-			<div class="dContainer">
-				<div class="dContHeading">
-					<h1 id="dContHeading" class="dContHeading">
-						Javascript Dom Manupulation Demostration
-					</h1>
-				</div>
-				<div id="dContBody" class="dContBody">
-					<h2>Here are few exaples of DOM Manupulation -</h2>
-					<br />
+		<p class="global-para">
+			Please open console to see the output and visit script.js file to
+			understand whats going on.
+		</p>
 
-					<h3>Selecting and Replacing elements -</h3>
-					<p>
-						1) Let's select and replace a text below with getElementByID() -
-					</p>
-					<p id="sText1" class="sText1">Sample text 1</p>
-					<p id="sText2" class="sText2">Sample text 2</p>
+		<br />
+		<br />
 
-					<br />
-
-					<p>
-						2) Let's select and replace a text below with
-						getElementByClassName() -
-					</p>
-					<p id="sText3" class="sText3">Sample text 3</p>
-					<p id="sText4" class="sText4">Sample text 4</p>
-
-					<br />
-
-					<p>
-						3) Let's select and replace a text and it's css below with
-						querySelector() -
-					</p>
-					<p id="sText5" class="sText5">Sample text 5</p>
-					<p id="sText6" class="sText6">Sample text 6</p>
-
-					<br />
-
-					<p>4) Let's select the items below with getElementsByName() -</p>
-					<input
-						type="radio"
-						id="Physics"
-						name="subjects"
-						value="Physics"
-						checked />
-					<label for="Physics">Physics</label>
-
-					<input
-						type="radio"
-						id="Chemistry"
-						name="subjects"
-						value="Chemistry" />
-					<label for="Chemistry">Chemistry</label>
-
-					<input type="radio" id="Biology" name="subjects" value="Biology" />
-					<label for="Biology">Biology</label>
-
-					<input type="radio" id="Computer" name="subjects" value="Computer" />
-					<label for="Computer">Computer</label>
-
-					<p id="sText8" class="sText8">
-						Please select a subject from the above checkbox
-					</p>
-					<p id="byNameResult"></p>
-
-					<br />
-
-					<p id="createElement">
-						4) Let's create elements and add them in HTML below with
-						appendChild() -
-					</p>
-				</div>
+		<div class="dContainer">
+			<div class="dContHeading">
+				<h1 id="dContHeading" class="dContHeading">
+					Javascript Dom Manipulation Demonstration
+				</h1>
 			</div>
+			<div id="dContBody" class="dContBody">
+				<h2>Here are few examples of DOM Maipulation -</h2>
+				<br />
 
-			<br />
-			<br />
+				<h3>Selecting and Replacing elements -</h3>
+				<p id="getbyid">
+					1) Let's select and replace a text below with getElementByID() -
+				</p>
+				<p id="sText1" class="sText1">Sample text 1</p>
+				<p id="sText2" class="sText2">Sample text 2</p>
 
-			<footer class="footer-container">
-				<a href="../ch12-javascript-date-and-time/index.html">
-					<button class="previous-chapter-btn global-btn-prop">
-						Previous Chapter
-					</button>
-				</a>
-				<a href="../index.html">
-					<button class="home-page-btn global-btn-prop">Home</button>
-				</a>
-				<a href="../ch14-javascript-events/index.html">
-					<button class="next-chapter-btn global-btn-prop">Next Chapter</button>
-				</a>
+				<br />
 
-				<form>
-					<label for="chapter">
-						<select name="chapters" id="chapter" class="chapter-selector">
-							<option value="Select Chapter">Select Chapter</option>
-							<option value="ch1-javascript_variabes">Ch1 - Variables</option>
-							<option value="ch2-javascript_datatypes">Ch2 - Datatypes</option>
-							<option value="ch3-javascript_expressions&operators">
-								Ch3 - Expressions
-							</option>
-							<option value="ch4-javascript-typeconversion">
-								Ch4-Javascript Typeconversion
-							</option>
-							<option value="ch5-javascript-mathfunctions">
-								Ch5-Javascript Math functions
-							</option>
-							<option value="ch6-javascript-condition">
-								ch6-Javascript Conditions
-							</option>
-							<option value="ch7-javascript-loops">ch7-Javascript Loops</option>
-							<option value="ch8-javascript-functions">
-								Ch8-Javascript Functions
-							</option>
-							<option value="ch9-ecmaScript">Ch9-EcmaScript</option>
-							<option value="ch10-javascript-arrays">
-								Ch10-Javascript Arrays
-							</option>
-							<option value="ch11-javascript-string">
-								Ch10-Javascript String
-							</option>
-							<option value="ch12-javascript-date-and-time">
-								ch12-Javascript Date and Time
-							</option>
-							<!-- <option value="ch10-javascript-arrays">
+				<p>
+					2) Let's select and replace a text below with
+					getElementByClassName() -
+				</p>
+				<p id="sText3" class="sText3">Sample text 3</p>
+				<p id="sText4" class="sText4">Sample text 4</p>
+
+				<br />
+
+				<p>
+					3) Let's select and replace a text and it's css below with
+					querySelector() -
+				</p>
+				<p id="sText5" class="sText5">Sample text 5</p>
+				<p id="sText6" class="sText6">Sample text 6</p>
+
+				<br />
+
+				<p>4) Let's select the items below with getElementsByName() -</p>
+				<input type="radio" id="Physics" name="subjects" value="Physics" checked />
+				<label for="Physics">Physics</label>
+
+				<input type="radio" id="Chemistry" name="subjects" value="Chemistry" />
+				<label for="Chemistry">Chemistry</label>
+
+				<input type="radio" id="Biology" name="subjects" value="Biology" />
+				<label for="Biology">Biology</label>
+
+				<input type="radio" id="Computer" name="subjects" value="Computer" />
+				<label for="Computer">Computer</label>
+
+				<p id="sText8" class="sText8">
+					Please select a subject from the above checkbox
+				</p>
+				<p id="byNameResult"></p>
+
+				<br />
+
+				<p id="createElement">
+					4) Let's create elements and add them in HTML below with
+					appendChild() -
+				</p>
+			</div>
+			<br>
+			<br>
+			<button>
+				<a href="practise.html">Goto Practise Page</a>
+			</button>
+		</div>
+
+		<br />
+		<br />
+
+		<footer class="footer-container">
+			<a href="../ch12-javascript-date-and-time/index.html">
+				<button class="previous-chapter-btn global-btn-prop">
+					Previous Chapter
+				</button>
+			</a>
+			<a href="../index.html">
+				<button class="home-page-btn global-btn-prop">Home</button>
+			</a>
+			<a href="../ch14-javascript-events/index.html">
+				<button class="next-chapter-btn global-btn-prop">Next Chapter</button>
+			</a>
+
+			<form>
+				<label for="chapter">
+					<select name="chapters" id="chapter" class="chapter-selector">
+						<option value="Select Chapter">Select Chapter</option>
+						<option value="ch1-javascript_variabes">Ch1 - Variables</option>
+						<option value="ch2-javascript_datatypes">Ch2 - Datatypes</option>
+						<option value="ch3-javascript_expressions&operators">
+							Ch3 - Expressions
+						</option>
+						<option value="ch4-javascript-typeconversion">
+							Ch4-Javascript Typeconversion
+						</option>
+						<option value="ch5-javascript-mathfunctions">
+							Ch5-Javascript Math functions
+						</option>
+						<option value="ch6-javascript-condition">
+							ch6-Javascript Conditions
+						</option>
+						<option value="ch7-javascript-loops">ch7-Javascript Loops</option>
+						<option value="ch8-javascript-functions">
+							Ch8-Javascript Functions
+						</option>
+						<option value="ch9-ecmaScript">Ch9-EcmaScript</option>
+						<option value="ch10-javascript-arrays">
+							Ch10-Javascript Arrays
+						</option>
+						<option value="ch11-javascript-string">
+							Ch10-Javascript String
+						</option>
+						<option value="ch12-javascript-date-and-time">
+							ch12-Javascript Date and Time
+						</option>
+						<!-- <option value="ch10-javascript-arrays">
 								Ch10-Javascript Arraysgit checkout
 							</option>
 							<option value="ch10-javascript-arrays">
 								Ch10-Javascript Arrays
 							</option> -->
-						</select>
-						<button class="go-btn">GO</button>
-					</label>
-				</form>
-			</footer>
-			<script src="script.js"></script>
-			<script src="practise.js"></script>
-			<script src="../js/index.js"></script>
-		</main>
-	</body>
+					</select>
+					<button class="go-btn">GO</button>
+				</label>
+			</form>
+		</footer>
+		<script src="script.js"></script>
+		<!-- <script src="practise.js"></script> -->
+		<script src="../js/index.js"></script>
+	</main>
+</body>
+
 </html>
