@@ -1,24 +1,31 @@
 * {
     margin: 0;
     padding: 0;
-    font-family:
-        "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
     box-sizing: border-box;
-    /* width: 100vw; */
-    /* height: 100vh; */
 }
 
 a {
     text-decoration: none;
+    color: #2563eb;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1d4ed8;
 }
 
 /* --- Global CSS --- */
 #error-text {
     margin: 1.4rem 0.5rem;
-    color: red;
-    font-weight: 800;
+    color: #dc2626;
+    font-weight: 600;
     font-size: 17px;
+    padding: 0.75rem 1rem;
+    background: #fef2f2;
+    border-radius: 8px;
+    border-left: 4px solid #dc2626;
 }
 
 .bold-800 {
@@ -27,103 +34,123 @@ a {
 
 .body-container {
     padding: 1rem;
-    background: linear-gradient(
-        90deg,
-        rgba(37, 138, 252, 0.1) 27.64%,
-        rgba(136, 91, 255, 0.1) 43.42%,
-        rgba(213, 23, 247, 0.1) 58.83%,
-        rgba(246, 173, 109, 0.1) 81.81%
-    );
+    background: linear-gradient(135deg,
+            rgba(37, 138, 252, 0.05) 0%,
+            rgba(136, 91, 255, 0.05) 25%,
+            rgba(213, 23, 247, 0.05) 50%,
+            rgba(246, 173, 109, 0.05) 75%,
+            rgba(37, 138, 252, 0.05) 100%);
+    min-height: 100vh;
 }
 
 .chapter-heading {
-    font-size: 2.1rem;
-    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #1f2937;
+    font-weight: 700;
+    text-align: center;
 }
 
 .global-para {
-    font-size: 19px;
-    letter-spacing: 0.5px;
-    margin-bottom: 0.1rem !important;
+    font-size: 1.1rem;
+    letter-spacing: 0.3px;
+    margin-bottom: 1rem !important;
+    line-height: 1.6;
+    color: #374151;
 }
 
 .global-btn-prop {
     margin: 1.5rem 0.7rem 1.5rem 0;
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 1.5rem;
     border: none;
-    border-radius: 4px;
-    font-size: 1.2rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
     font-weight: 600;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 .global-btn-prop:hover {
-    transition: 0.2s ease;
-    transform: translatey(-5%);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 .global-btn-prop:active {
     transform: scale(0.98);
-    /* Scaling button to 0.98 to its original size */
-    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-    /* Lowering the shadow */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 .previous-chapter-btn {
-    background: rgb(255, 235, 52);
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+    color: #1f2937;
 }
 
 .previous-chapter-btn:hover {
-    background: rgb(211, 211, 3);
+    background: linear-gradient(135deg, #f59e0b, #d97706);
 }
 
 .home-page-btn {
-    background: rgb(67, 232, 6);
+    background: linear-gradient(135deg, #10b981, #059669);
     color: white;
 }
 
 .home-page-btn:hover {
-    background: rgb(3, 180, 3);
+    background: linear-gradient(135deg, #059669, #047857);
 }
 
 .next-chapter-btn {
-    background: rgb(255, 0, 183);
-    color: rgb(255, 255, 255);
+    background: linear-gradient(135deg, #ec4899, #db2777);
+    color: white;
 }
 
 .next-chapter-btn:hover {
-    background: rgb(236, 3, 123);
+    background: linear-gradient(135deg, #db2777, #be185d);
 }
 
 .odd-even-form {
     margin: 2rem 0rem 2rem 1rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 .odd-even-form input {
-    border-radius: 5px;
-    border: 0.5px solid black;
-    padding: 0.3rem;
+    border-radius: 8px;
+    border: 2px solid #e5e7eb;
+    padding: 0.75rem;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.odd-even-form input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
 .submit-button {
     border: none !important;
-    background: green;
-    color: whitesmoke;
-    padding: 0.3rem 1.5rem !important;
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: white;
+    padding: 0.75rem 1.5rem !important;
     margin-left: 1rem;
-    border-radius: 0.3rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .submit-button:hover {
-    transition: 0.2s ease;
-    transform: translatey(-5%);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 .submit-button:active {
     transform: scale(0.98);
-    /* Scaling button to 0.98 to its original size */
-    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-    /* Lowering the shadow */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 @keyframes blink {
@@ -142,21 +169,46 @@ a {
 
 .error-text {
     animation: blink 0.5s 2;
-    /* Blink 3 times over 3 seconds */
 }
 
 /* --- CSS required for programming practise from ch5 --- */
-
 .mainheading {
     margin: 0.5rem 0rem;
+    color: #1f2937;
+    font-weight: 600;
 }
 
 .programs-container {
     display: flex;
     justify-content: space-between;
     padding: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .con-list li {
     margin: 1rem 0rem 0rem 1.5rem;
+    line-height: 1.6;
+    color: #374151;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .chapter-heading {
+        font-size: 2rem;
+    }
+
+    .global-para {
+        font-size: 1rem;
+    }
+
+    .global-btn-prop {
+        padding: 0.6rem 1.2rem;
+        font-size: 1rem;
+    }
+
+    .programs-container {
+        flex-direction: column;
+        padding: 1rem;
+    }
 }
