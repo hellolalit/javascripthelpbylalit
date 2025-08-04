@@ -244,5 +244,5 @@ This repository serves as a comprehensive JavaScript learning resource designed 
 ---
 
 *Last Updated: March 2025*  
-*Maintained by: Mr. Kumar*  
+*Maintained by: Mr. Kumar(https://namokumar.com)*  
 *License: Educational Use Only*
