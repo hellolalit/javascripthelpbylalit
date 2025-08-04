@@ -191,7 +191,7 @@ This repository serves as a comprehensive JavaScript learning resource designed 
 ### **📧 Get in Touch:**
 - **Email:** namastemrkumar@protonmail.com
 - **GitHub Issues:** [Report Issues Here](https://github.com/kumardevelops/javascript/issues)
-- **Live Preview:** [View Project Online](https://kumardeveloper.github.io/javascript/)
+- **Live Preview:** [View Project Online](https://kumardevelops.github.io/javascript/)
 
 ### **💬 Support Available:**
 - **Technical Guidance** for contributors
