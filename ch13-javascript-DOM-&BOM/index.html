@@ -18,9 +18,6 @@
 			understand whats going on.
 		</p>
 
-		<br />
-		<br />
-
 		<div>
 			<h2>
 				Javascript Dom Manipulation
@@ -29,12 +26,17 @@
 			<div>
 				<p>Open console from developer tools to see result.</p>
 				<br>
+
+				<h2>Selecting Elements -</h2>
+				<br />
+				<h3>Direct Selection -</h3>
 				<p>
 					<strong>
 						document.getElementbyId() -
 					</strong>
 				</p>
 				<p id="name">Hi, My Name is Mr Kumar.</p>
+				<p>The above <i>paragraph</i> is selected by <strong>document.getElementbyId()</strong></p>
 
 				<br />
 
@@ -51,7 +53,9 @@
 				<input type="radio" name="language" id="Russian" value="Russian"> Russian
 				<input type="radio" name="language" id="Arabic" value=""> Arabic
 
-				<br />
+				<p>The <strong>getElementByName()</strong> selects all input tags by Name. In this case all input tags
+					having "language" name will be selected.</p>
+
 				<br />
 
 				<p>
@@ -64,6 +68,28 @@
 					</a>
 				</p>
 				</p>
+
+				<p>
+					The <strong>getElementByTagName()</strong> selects a html tag in html. And returns multiple selected
+					tags (here p tag) as <i>p</i> tag are selected in that html document.
+				</p>
+
+				<br />
+
+				<h3>Indirect Selection -</h3>
+				<p>
+					<strong>
+						parentElement -
+					</strong>
+				</p>
+				<ol>
+					This is a sample list of tech used in frontend Dev-
+					<li id="html">Html</li>
+					<li>CSS</li>
+					<li>JS/JavaScript</li>
+					<li>React.js</li>
+					<li>Tailwinf CSS/ Chakra UI</li>
+				</ol>
 			</div>
 			<br />
 			<button class="global-btn-prop">
