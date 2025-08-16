@@ -25,8 +25,32 @@ const tagname = document.getElementsByTagName(`p`);
 console.log(`getelementbyTagName =`);
 console.log(tagname); // This will return multiple p tags as the the <p> are selected in that html document.
 
+// querySelector() selects 1st id or class that that html document. Example-
+let sampleid = document.querySelector("#sampleid");
+console.log("Sample id =" + sampleid.outerHTML);
+
+// querySelectorAll() selects all id or class that that html document. Example-
+let sampleclass2 = document.querySelectorAll(".sampleclass2");
+const lenofclass2 = sampleclass2.length;
+console.log(lenofclass2);
+for (let i = 0; i < lenofclass2; i++) {
+    console.log(sampleclass2[i]);
+}
+
 // Indirect Selection -
 // parentElement -
 let child_list_item = document.querySelector("#html");
 let parent_list = child_list_item.parentElement;
 console.log("Parent Element =", parent_list);
+
+// querySelector() selects 1st id or class that that html document. Example-
+let sampleid = document.querySelector("#sampleid");
+console.log("Sample id =" + sampleid.outerHTML);
+
+// querySelectorAll() selects all id or class that that html document. Example-
+let sampleclass2 = document.querySelectorAll(".sampleclass2");
+const lenofclass2 = sampleclass2.length;
+console.log(lenofclass2);
+for (let i = 0; i < lenofclass2; i++) {
+    console.log(sampleclass2[i]);
+}

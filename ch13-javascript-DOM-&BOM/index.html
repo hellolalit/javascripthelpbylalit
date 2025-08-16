@@ -14,17 +14,18 @@
 		<h1 class="chapter-heading">Chapter 13 - Javascript DOM and BOM</h1>
 
 		<p class="global-para">
-			Please open console to see the output and visit script.js file to
-			understand whats going on.
+			Please open the console to see the output and visit the script.js file to
+			understand what's going on.
 		</p>
 
 		<div>
 			<h2>
-				Javascript Dom Manipulation
+				Javascript Dom Manipulation-
 			</h2>
 			<br>
+			<h3>Selecting Elements-</h3>
 			<div>
-				<p>Open console from developer tools to see result.</p>
+				<p>Open the console from developer tools to see a result.</p>
 				<br>
 
 				<h2>Selecting Elements -</h2>
@@ -32,7 +33,7 @@
 				<h3>Direct Selection -</h3>
 				<p>
 					<strong>
-						document.getElementbyId() -
+						document.getElementById() -
 					</strong>
 				</p>
 				<p id="name">Hi, My Name is Mr Kumar.</p>
@@ -42,54 +43,67 @@
 
 				<p>
 					<strong>
-						document.getElementbyName() -
+						document.getElementByName() -
 					</strong>
 				</p>
 				<p>Please Select a language you know-</p>
-				<input type="radio" name="language" id="English" value="English"> English
-				<input type="radio" name="language" id="Hindi" value="Hindi"> Hindi
-				<input type="radio" name="language" id="Sanskrit" value="Sanskrit"> Sanskrit
-				<input type="radio" name="language" id="Bengali" value="Bengali"> Bengali
-				<input type="radio" name="language" id="Russian" value="Russian"> Russian
-				<input type="radio" name="language" id="Arabic" value=""> Arabic
+				<input type="radio" name="language" id="English" value="English">
+				<label for="English">English</label>
+				<input type="radio" name="language" id="Hindi" value="Hindi">
+				<label for="English">Hindi</label>
+				<input type="radio" name="language" id="Sanskrit" value="Sanskrit">
+				<label for="English">Sanskrit</label>
+				<input type="radio" name="language" id="Bengali" value="Bengali">
+				<label for="English">Bengali</label>
+				<input type="radio" name="language" id="Russian" value="Russian">
+				<label for="English">Russian</label>
+				<input type="radio" name="language" id="Arabic" value="">
+				<label for="English">Arabic</label>
 
-				<p>The <strong>getElementByName()</strong> selects all input tags by Name. In this case all input tags
-					having "language" name will be selected.</p>
-
+				<br />
 				<br />
 
 				<p>
 					<strong>
-						document.getElementbyTagName() -
+						document.getElementByTagName() -
 					</strong>
+				</p>
 				<p id="tagname">
-					If you want to develop any website then contact <a href="https://namokumar.com" target="_blank">
+					If you want to develop any website, then contact
+					<a href="https://namokumar.com" target="_blank">
 						Mr Kumar
 					</a>
 				</p>
-				</p>
-
-				<p>
-					The <strong>getElementByTagName()</strong> selects a html tag in html. And returns multiple selected
-					tags (here p tag) as <i>p</i> tag are selected in that html document.
-				</p>
 
 				<br />
 
-				<h3>Indirect Selection -</h3>
 				<p>
 					<strong>
-						parentElement -
+						document.querySelector() -
 					</strong>
 				</p>
-				<ol>
-					This is a sample list of tech used in frontend Dev-
-					<li id="html">Html</li>
-					<li>CSS</li>
-					<li>JS/JavaScript</li>
-					<li>React.js</li>
-					<li>Tailwinf CSS/ Chakra UI</li>
-				</ol>
+				<div id="sampleid">
+					This is a Text inside an ID.
+				</div>
+				<div class="sampleclass">
+					This is a Text inside a Class.
+				</div>
+
+				<br />
+				<p>
+					<strong>
+						document.querySelectorAll() -
+					</strong>
+				</p>
+				<div id="sampleid2">
+					This is a Text inside an ID.
+				</div>
+				<div class="sampleclass2">
+					This is a Tex2 inside a Class.
+				</div>
+				<div class="sampleclass2">
+					This is a Text3 inside a Class.
+				</div>
 			</div>
 			<br />
 			<button class="global-btn-prop">
@@ -120,7 +134,7 @@
 							Ch3 - Expressions
 						</option>
 						<option value="ch4-javascript-typeconversion">
-							Ch4-Javascript Typeconversion
+							Ch4-Javascript Type conversion
 						</option>
 						<option value="ch5-javascript-mathfunctions">
 							Ch5-Javascript Math functions
@@ -143,7 +157,7 @@
 							ch12-Javascript Date and Time
 						</option>
 						<!-- <option value="ch10-javascript-arrays">
-								Ch10-Javascript Arraysgit checkout
+								Ch10-Javascript Arrays git checkout
 							</option>
 							<option value="ch10-javascript-arrays">
 								Ch10-Javascript Arrays

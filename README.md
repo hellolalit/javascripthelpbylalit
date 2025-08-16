@@ -93,7 +93,7 @@ This repository serves as a comprehensive JavaScript learning resource designed 
 
 1. **📥 Clone the Repository**
    ```bash
-   git clone https://github.com/kumardevelops/javascript
+   git clone https://github.com/namokumar/javascript
    ```
 
 2. **📂 Navigate to Project**
@@ -190,8 +190,8 @@ This repository serves as a comprehensive JavaScript learning resource designed 
 
 ### **📧 Get in Touch:**
 - **Email:** namastemrkumar@protonmail.com
-- **GitHub Issues:** [Report Issues Here](https://github.com/kumardevelops/javascript/issues)
-- **Live Preview:** [View Project Online](https://kumardeveloper.github.io/javascript/)
+- **GitHub Issues:** [Report Issues Here](https://github.com/namokumar/javascript/issues)
+- **Live Preview:** [View Project Online](https://namokumar.github.io/javascript/)
 
 ### **💬 Support Available:**
 - **Technical Guidance** for contributors
