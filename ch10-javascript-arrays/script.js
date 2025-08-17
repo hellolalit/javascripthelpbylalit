@@ -1,18 +1,20 @@
 "use strict";
 
-// Javascript Arrays.
+/*
+Javascript Arrays.
 
-// What is Javascript Array ?
-// JavaScript Array is a single variable that is used to store
-// elements of different data types. JavaScript arrays are zero-indexed.
-// The Javascript Arrays are not associative in nature.
-// Arrays are used when we have a list of items annd we need to store then in one variable.
+What is Javascript Array ?
+JavaScript Array is a single variable that is used to store
+elements of different data types. JavaScript arrays are zero-indexed.
+The Javascript Arrays are not associative in nature.
+Arrays are used when we have a list of items annd we need to store then in one variable.
+*/
 
 // Syntax -
 
 // let arrayName = [value1, value2, ...];
 
-let arrayname = ["name1", "name2", "name3"];
+let testArray = ["name1", "name2", "name3"];
 
 // using new keyword -
 
@@ -58,9 +60,9 @@ let myFriends = ["vinod", "swati", "komal", "raju"]; // declared an array named 
 // to check the length of an array
 // We check the length of an array using length() method in javascript. Example -
 
-let enemies = ["poulov", "suman", "sneha", "aslesha", "arg"];
+let ene = ["poulov", "suman", "sneha", "aslesha", "arg"];
 
-console.log(`Total length of the array is = ${enemies.length}`);
+console.log(`Total length of the array is = ${ene.length}`);
 
 // Increase and decrease the length of an array
 
@@ -87,41 +89,39 @@ console.log("Array after decreased length: ", courses);
 // Traversal Array -  Instead of having to perform an action for each item in an array individually,
 // loops allow us to repeat the action a selected number of times. example -
 
-console.log(`One of my enemy = ${enemies[2]}`);
+console.log(`One of my ene = ${ene[2]}`);
 
 // Adding elements to the array. Also, adding last element to the array-
 
-enemies.push("abhishek"); // this will add the element to the array.
+ene.push("abhi"); // this will add the element to the array.
 // This is the same process for adding the last element to the array.
 
 console.log("New array =");
-console.log(enemies);
+console.log(ene);
 // So, push is used to add the element to the array.
 
 // *** Javascript Methods which are used in array ***
 
 // Adding elements to the start index of the array -
-
-enemies.unshift("rumela ganguli");
+ene.unshift("John Watson");
 console.log("New array =");
-console.log(enemies);
+console.log(ene);
 // So, unshift is used to add the element at the start index of the array.
 
-// Removing last element from the array -
-
-enemies.pop();
-console.log(`New array with last element removed = `);
-console.log(enemies);
-//  By using pop(), we can remove the last element from the array.
-
 //  Removing the 1st element from the array -
-enemies.shift();
+ene.shift();
 console.log(`New array with first element removed =`);
-console.log(enemies);
+console.log(ene);
 // By using shift(), we can remove the first element from the array.
 
+// Removing last element from the array -
+ene.pop();
+console.log(`New array with last element removed = `);
+console.log(ene);
+//  By using pop(), we can remove the last element from the array.
+
 // to check if the variable data type is array or not -
-console.log(Array.isArray(enemies));
+console.log(Array.isArray(ene));
 
 // Exact words from string as an array -
 let newString = "This is a string going to be convered.";
@@ -146,7 +146,7 @@ let usersInfo = [
 		"Vinit",
 		"Vanshika",
 		"Olyvia",
-		["chatterjee", "bogopaddhayai", "grop", "singh", "verma", "Cornelo"],
+		["chatterjee", "bogopaddhayai", "grop", "singh", "verma", "Das"],
 	],
 	[true, false, true, true, false, true, false, true],
 	[21, 29, 26, 23, 25, 19, 24],
