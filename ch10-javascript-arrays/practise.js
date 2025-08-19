@@ -9,24 +9,9 @@ emp_ID = [1, 2, 3, 4, 5];
 
 // push() -
 const arrayInput = [];
-let submitInputValue = document.querySelector("#submitArrayInput");
-console.log(submitInputValue);
-function storeInput() {
-    const inputElement = document.querySelector("#arrayInput");
-    const inputArrayValue = document.querySelector("#arrayInput").value.trim(); // .trim() removes extra spaces;
-    console.log(inputArrayValue);
-    if (inputArrayValue) { // only push if not empty
-        arrayInput.push(inputArrayValue);
-        console.log(arrayInput);
-    }
-    if (arrayInput != "") {
-        alert("Value added successfully");
-    }
-
-    // clear the input field
-    inputElement.value = "";
-    inputElement.focus(); // optional: keeps cursor ready in the box
+const len = parseInt(prompt("Please Enter the length of the Array: "));
+for (let i = 0; i < len; i++) {
+    let val = prompt("Please Enter a Value =");
+    arrayInput.push(val);
 }
-
-
-submitInputValue.addEventListener('click', storeInput);
+console.log("Vale of ArrayInput = ", arrayInput);
