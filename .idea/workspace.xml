@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7811491f-28c5-4077-9e9e-864dfba24b33" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch13-javascript-DOM-&amp;BOM/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch13-javascript-DOM-&amp;BOM/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch13-javascript-DOM-&amp;BOM/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/ch13-javascript-DOM-&amp;BOM/script.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;namokumar&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/namokumar/javascript.git&quot;,
+    &quot;accountId&quot;: &quot;c6b33e44-550d-4505-a1e7-99b58bbbc8c4&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="31G9RN2cAWPu6O2Kom0JBSJfTHm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "13dom",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/namastemrkumar/Documents/coding/assignments/anudipassignments/javascript",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-WS-252.23892.411" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7811491f-28c5-4077-9e9e-864dfba24b33" name="Changes" comment="" />
+      <created>1755139534928</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755139534928</updated>
+      <workItem from="1755139539492" duration="263000" />
+      <workItem from="1755139817545" duration="277000" />
+      <workItem from="1755150075036" duration="246000" />
+      <workItem from="1755150340674" duration="168000" />
+      <workItem from="1755150526265" duration="156000" />
+      <workItem from="1755150707945" duration="29000" />
+      <workItem from="1755150755792" duration="1340000" />
+      <workItem from="1755170173527" duration="242000" />
+      <workItem from="1755170431134" duration="143000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
