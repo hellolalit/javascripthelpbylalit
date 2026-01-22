@@ -6,11 +6,11 @@ let slicearr = () => {
 		"kaju",
 		"bhaju",
 		"naju",
-		"deem",
-		"bheem",
-		"sheem",
-		"leem",
-		"namah",
+		"david",
+		"decosta",
+		"ola",
+		"priya",
+		"",
 	];
 	let slicedarray = users.slice(5, 9);
 	console.log(`Sliced array = ${slicedarray}`);
