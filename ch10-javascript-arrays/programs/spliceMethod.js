@@ -2,8 +2,8 @@
 
 let slicearr = () => {
 	let userName = [
-		"sabi",
-		"lalit",
+		"dhappa",
+		"lalu",
 		"lenovo",
 		"hp",
 		"dell",

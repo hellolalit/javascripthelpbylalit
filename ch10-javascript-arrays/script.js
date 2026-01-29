@@ -60,7 +60,7 @@ let myFriends = ["vinod", "swati", "komal", "raju"]; // declared an array named 
 // to check the length of an array
 // We check the length of an array using length() method in javascript. Example -
 
-let ene = ["poulov", "suman", "sneha", "aslesha", "arg"];
+let ene = ["poulov", "suman", "sneha", "aslesha", "brg"];
 
 console.log(`Total length of the array is = ${ene.length}`);
 
@@ -146,18 +146,18 @@ let usersInfo = [
 		"Vinit",
 		"Vanshika",
 		"Olyvia",
-		["chatterjee", "bogopaddhayai", "grop", "singh", "verma", "Das"],
+		["Das", "Roy", "Ghosh", "Roy", "Kumar", "Jha", "Desuza"],
 	],
 	[true, false, true, true, false, true, false, true],
 	[21, 29, 26, 23, 25, 19, 24],
 ];
-// In th main array, 1st array contains user names,
+// In th main array, 1st array contains user names, Inside it Surname are there,
 // 2nd array contains is user is logged in? true or false,
 // 3rd array contains user age.
 
 // Accessing the multi-dimensional array -
 
-const surName = usersInfo[0][1][0];
+const surName = usersInfo[0];
 console.log(`Surname = ${surName}`);
 
 let i, j, k;
@@ -412,7 +412,7 @@ console.log("\n\n Javascript Methods arrays and objects -");
 // Javascript filter() method -
 
 let published = books.filter(
-	(bookData) => bookData.publisher === "O'Reilly Media"
+	(bookData) => bookData.publisher === "O'Reilly Media",
 );
 
 console.log("Book Publisher =", published);
@@ -486,7 +486,7 @@ const arrayOfNumbers = [
 const newNumberArray = arrayOfNumbers
 	.map((number, indexOfArray, newNumberArray) => {
 		if (number > 5 && number < 14) {
-			return number, indexOfArray, newNumberArray;
+			return (number, indexOfArray, newNumberArray);
 		}
 	})
 	.filter((number) => number !== undefined); // filter is used to remove undefined values.
