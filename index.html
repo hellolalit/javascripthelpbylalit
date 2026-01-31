@@ -18,160 +18,256 @@
 </head>
 
 <body class="body-container">
+	<nav class="glass-panel sticky-nav">
+		<div class="nav-content">
+			<a href="#" class="nav-logo">JS <span class="text-gradient">Mastery</span></a>
+			<div class="nav-links">
+				<a href="#overview">Overview</a>
+				<a href="#start">Get Started</a>
+				<a href="#highlights">Highlights</a>
+				<a href="https://github.com/kumardevelops/javascript" target="_blank"
+					class="btn btn-secondary btn-sm">GitHub</a>
+			</div>
+		</div>
+	</nav>
+
 	<main class="main-content">
 		<!-- Hero Section -->
 		<section class="hero-section">
 			<div class="hero-content">
-				<h1 class="home-heading">
-					🚀 Welcome to JavaScript Learning Repository
+				<div class="trust-badge">
+					<span>🛡️</span> Recruiter-Approved Learning Path 2026
+				</div>
+				<h1 class="home-heading text-gradient">
+					Master JavaScript <br>from Zero to Hero
 				</h1>
 				<p class="hero-subtitle">
-					Master JavaScript Programming with Comprehensive Chapters & Practical Projects
+					The industry-standard repository featuring 14+ structural chapters and 25+ real-world projects
+					built to get you hired.
 				</p>
+				<div class="cta-buttons">
+					<a href="./ch1-javascript_variabes/index.html" class="btn btn-primary">
+						<span>🚀 Start Learning</span>
+					</a>
+					<a href="#overview" class="btn btn-secondary">
+						<span>Explore Curriculum</span>
+					</a>
+				</div>
 			</div>
 		</section>
 
-		<!-- Course Overview -->
-		<section class="course-overview">
-			<div class="overview-card">
-				<h2 class="section-heading">📚 About This Course</h2>
-				<p class="home-para">
-					This comprehensive JavaScript course, created by
-					<a href="https://helokumar.netlify.app" target="_blank" class="author-link">
-						<span class="bold-800">Mr. Kumar</span>
-					</a>,
-					provides a structured learning path through 14 detailed chapters. Each chapter includes:
-				</p>
+		<!-- Bento Course Overview -->
+		<section id="overview" class="section-padding">
+			<h2 class="section-heading text-gradient">Curriculum Overview</h2>
+			<div class="bento-grid">
+				<div class="glass-panel bento-card span-6 row-2">
+					<div class="feature-content">
+						<span class="feature-icon">📚</span>
+						<h3>14 Comprehensive Chapters</h3>
+						<p>From fundamental variables to advanced DOM manipulation and ES6+ features. A structured path
+							designed for mastery.</p>
+					</div>
+					<a href="./ch1-javascript_variabes/index.html" class="author-link">View Chapters →</a>
+				</div>
 
-				<div class="features-grid">
-					<div class="feature-item">
-						<span class="feature-icon">📝</span>
-						<h3>Detailed Notes</h3>
-						<p>Comprehensive explanations for every concept</p>
-					</div>
-					<div class="feature-item">
+				<div class="glass-panel bento-card span-6">
+					<div class="feature-content">
 						<span class="feature-icon">💻</span>
-						<h3>Code Examples</h3>
-						<p>Practical <strong>script.js</strong> files in every chapter</p>
+						<h3>Live Code Examples</h3>
+						<p>Every chapter includes <strong>script.js</strong> files with production-grade code examples
+							you can run instantly.</p>
 					</div>
-					<div class="feature-item">
-						<span class="feature-icon">🎯</span>
-						<h3>Practice Files</h3>
-						<p>Dedicated <strong>practise.js</strong> files for hands-on learning</p>
+				</div>
+
+				<div class="glass-panel bento-card span-3 recruiter-focus">
+					<div class="feature-content">
+						<span class="feature-icon">👔</span>
+						<h3>HR Ready</h3>
+						<p>Codebase designed to demonstrate skills explicitly to <strong>Recruiters & HR
+								Managers</strong>.</p>
 					</div>
-					<div class="feature-item">
-						<span class="feature-icon">🚀</span>
+				</div>
+
+				<div class="glass-panel bento-card span-3">
+					<div class="feature-content">
+						<span class="project-count">25+</span>
 						<h3>Mini Projects</h3>
-						<p>Real-world applications to reinforce learning</p>
+						<p>From Note Apps to API-driven Weather Dashboards.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Why Us / The Problem We Solve -->
+		<section id="why" class="section-padding">
+			<div class="main-content">
+				<div class="glass-panel card-padding">
+					<h2 class="home-heading text-gradient" style="font-size: 3.5rem;">Why Learn Here?</h2>
+					<div class="bento-grid" style="margin-top: 4rem;">
+						<div class="span-4 feature-item">
+							<span class="feature-icon" style="font-size: 3rem; margin-bottom: 1.5rem;">🔍</span>
+							<h3>Beyond Syntax</h3>
+							<p>We don't just teach loops; we teach JavaScript engines, execution contexts, and
+								performance.</p>
+						</div>
+						<div class="span-4 feature-item">
+							<span class="feature-icon" style="font-size: 3rem; margin-bottom: 1.5rem;">🌍</span>
+							<h3>Dual Language</h3>
+							<p>Tutorials supported in both <strong>Hindi & English</strong> to bridge global learning
+								gaps.</p>
+						</div>
+						<div class="span-4 feature-item">
+							<span class="feature-icon" style="font-size: 3rem; margin-bottom: 1.5rem;">💰</span>
+							<h3>Community Powered</h3>
+							<p>Open-source project with monetary rewards for significant documentation/code
+								contributions.</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
 		<!-- Getting Started -->
-		<section class="getting-started">
-			<div class="started-card">
-				<h2 class="section-heading">🚀 Getting Started</h2>
-				<p class="home-para">
-					To access the complete course materials and verify the knowledge demonstrated,
-					visit our
-					<a href="https://github.com/kumardevelops/javascript" target="_blank" class="github-link">
-						GitHub repository
-					</a>
-					and follow these steps:
+		<section id="start" class="section-padding">
+			<div class="glass-panel started-card card-padding">
+				<h2 class="section-heading text-gradient">Ready to Dive In?</h2>
+				<p class="home-para text-center">
+					Follow these simple steps to set up your local development environment.
 				</p>
 
 				<div class="steps-container">
-					<div class="step-item">
+					<div class="glass-panel step-item">
 						<div class="step-number">1</div>
-						<div class="step-content">
-							<h3>Clone the Repository</h3>
-							<p>Download the project to your local computer or browse directly from the repository</p>
-						</div>
+						<h3>Clone Repository</h3>
+						<p>Pull the latest code to your machine using Git or download the ZIP.</p>
 					</div>
 
-					<div class="step-item">
+					<div class="glass-panel step-item">
 						<div class="step-number">2</div>
-						<div class="step-content">
-							<h3>Open in Code Editor</h3>
-							<p>Use
-								<a href="https://code.visualstudio.com/" target="_blank" class="editor-link">VS Code</a>
-								or
-								<a href="https://zed.dev/" target="_blank" class="editor-link">ZED</a>
-								to explore the chapter folders
-							</p>
-						</div>
+						<h3>Open in Editor</h3>
+						<p>Recommended: <a href="https://code.visualstudio.com/">VS Code</a> for the best experience.
+						</p>
 					</div>
 
-					<div class="step-item">
+					<div class="glass-panel step-item">
 						<div class="step-number">3</div>
-						<div class="step-content">
-							<h3>Follow Video Tutorials</h3>
-							<p>Watch the
-								<a href="https://www.youtube.com/watch?v=KGkiIBTq0y0&t=1842s" target="_blank"
-									class="video-link">
-									Thapa Technical JavaScript Full Course
-								</a>
-								alongside the code examples
-							</p>
-						</div>
-					</div>
-
-					<div class="step-item">
-						<div class="step-number">4</div>
-						<div class="step-content">
-							<h3>Practice & Learn</h3>
-							<p>Study the <strong>script.js</strong> files and practice with <strong>practise.js</strong>
-								files</p>
-						</div>
+						<h3>Watch & Learn</h3>
+						<p>Follow along with the <a href="https://www.youtube.com/watch?v=KGkiIBTq0y0">full
+								tutorial</a>.</p>
 					</div>
 				</div>
 			</div>
 		</section>
 
 		<!-- Course Highlights -->
-		<section class="course-highlights">
-			<div class="highlights-card">
-				<h2 class="section-heading">🎯 Course Highlights</h2>
-				<div class="highlights-grid">
-					<div class="highlight-item">
-						<h3>📖 14 Comprehensive Chapters</h3>
-						<p>From variables to advanced DOM manipulation</p>
+		<section id="highlights" class="section-padding">
+			<h2 class="section-heading text-gradient text-center" style="margin-bottom: 3rem;">Course Pillars</h2>
+			<div class="highlights-grid">
+				<div class="glass-panel highlight-item">
+					<h3>📖 Depth</h3>
+					<p>Deep dive into JavaScript engines, hoisting, and closures. Master the "How" not just the "What".
+					</p>
+				</div>
+				<div class="glass-panel highlight-item">
+					<h3>💡 Industry Logic</h3>
+					<p>Learn to solve real-world technical problems that senior developers face daily.</p>
+				</div>
+				<div class="glass-panel highlight-item">
+					<h3>🎨 UX Excellence</h3>
+					<p>Every lesson focuses on building beautiful, responsive, and accessible user interfaces.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Founder's Vision -->
+		<section id="founder" class="section-padding">
+			<div class="main-content">
+				<div class="glass-panel card-padding founder-grid">
+					<div class="founder-image">
+						<div class="glass-panel"
+							style="width: 200px; height: 200px; border-radius: 50%; background: var(--primary); margin: 0 auto; display: grid; place-items: center; font-size: 4rem;">
+							👨‍🏫
+						</div>
 					</div>
-					<div class="highlight-item">
-						<h3>💡 Practical Examples</h3>
-						<p>Real-world code examples in every chapter</p>
-					</div>
-					<div class="highlight-item">
-						<h3>🎨 Interactive Projects</h3>
-						<p>Weather app, note app, and more mini-projects</p>
-					</div>
-					<div class="highlight-item">
-						<h3>📚 Professional Documentation</h3>
-						<p>Detailed notes and explanations for every concept</p>
+					<div class="founder-note">
+						<div class="trust-badge" style="background: hsla(280, 80%, 65%, 0.15); color: #c084fc;">Message
+							from the Founder</div>
+						<h2 style="margin-bottom: 1.5rem;">"The bridge between knowledge and employment."</h2>
+						<p style="font-size: 1.15rem; line-height: 1.7; color: hsla(0,0%,100%,0.8);">
+							I built this repository because I saw too many students learning syntax without
+							understanding the
+							hiring landscape. This isn't just code—it's a demonstration of professional readiness. Every
+							line
+							is written with the recruiter's perspective in mind.
+						</p>
+						<p style="margin-top: 1.5rem; font-weight: 700; color: white;">— Mr. Kumar, Senior Developer &
+							Educator</p>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<!-- Call to Action -->
+		<!-- Final CTA -->
 		<section class="cta-section">
-			<div class="cta-card">
-				<h2 class="section-heading">Ready to Start Learning?</h2>
-				<p class="cta-text">
-					Begin your JavaScript journey with our structured learning path
-				</p>
-				<div class="cta-buttons">
-					<a href="./ch1-javascript_variabes/index.html" class="cta-btn primary-btn">
-						🚀 Start Chapter 1
-					</a>
-					<a href="https://github.com/kumardevelops/javascript" target="_blank" class="cta-btn secondary-btn">
-						📁 View Repository
-					</a>
+			<div class="main-content">
+				<div class="cta-card glass-panel">
+					<h2 class="home-heading text-gradient">Ready to Close the Deal?</h2>
+					<p class="hero-subtitle">Stop learning in isolation. Start building the portfolio that speaks for
+						you.
+					</p>
+					<div class="cta-buttons">
+						<a href="./ch1-javascript_variabes/index.html" class="btn btn-primary">Start Your Journey</a>
+						<a href="https://github.com/namokumar/javascript" class="btn btn-secondary" target="_blank">Star
+							on GitHub</a>
+					</div>
 				</div>
 			</div>
 		</section>
 	</main>
+
+	<!-- Footer -->
+	<footer class="section-padding" style="background: var(--bg-deep); border-top: 1px solid var(--glass-border);">
+		<div class="main-content">
+			<div class="footer-grid">
+				<div>
+					<div class="nav-logo" style="margin-bottom: 1.5rem;">JS Mastery</div>
+					<p style="color: hsla(0,0%,100%,0.6); line-height: 1.6;">
+						Empowering developers through high-quality, recruiter-focused education since 2024.
+						Part of the Namo Kumar educational ecosystem.
+					</p>
+				</div>
+				<div>
+					<h4 style="color: white; margin-bottom: 1.5rem;">Chapters</h4>
+					<ul style="list-style: none; color: hsla(0,0%,100%,0.5); line-height: 2;">
+						<li>Basics (1-5)</li>
+						<li>Logic (6-9)</li>
+						<li>Advanced (10-14)</li>
+					</ul>
+				</div>
+				<div>
+					<h4 style="color: white; margin-bottom: 1.5rem;">Resources</h4>
+					<ul style="list-style: none; color: hsla(0,0%,100%,0.5); line-height: 2;">
+						<li>25+ Mini Projects</li>
+						<li>YouTube Guide</li>
+						<li>Support Lab</li>
+					</ul>
+				</div>
+				<div>
+					<h4 style="color: white; margin-bottom: 1.5rem;">Connect</h4>
+					<ul style="list-style: none; color: hsla(0,0%,100%,0.5); line-height: 2;">
+						<li>namastemrkumar@protonmail.com</li>
+						<li>GitHub community</li>
+					</ul>
+				</div>
+			</div>
+			<div
+				style="margin-top: 6rem; padding-top: 2rem; border-top: 1px solid hsla(0,0%,100%,0.05); text-align: center;">
+				<p style="color: hsla(0,0%,100%,0.4); font-size: 0.9rem;">
+					© 2026 Developed with ❤️ by <strong>Mr. Kumar</strong>. For educational purposes only.
+				</p>
+			</div>
+		</div>
+	</footer>
 
 	<script src="./js/index.js"></script>
 </body>
