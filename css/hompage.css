@@ -6,16 +6,16 @@
     padding: 0 1.5rem;
 }
 
+.section-padding {
+    padding: 3rem 0;
+}
+
 /* Hero Section */
 .hero-section {
     position: relative;
-    padding: 12rem 0 6rem;
+    padding: 10rem 0 3rem;
     text-align: center;
     overflow: hidden;
-}
-
-.section-padding {
-    padding: 8rem 0;
 }
 
 .hero-content {
