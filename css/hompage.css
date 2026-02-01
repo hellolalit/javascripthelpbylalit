@@ -1,3 +1,4 @@
+@import url(./style.css);
 /* --- Homepage Premium Styles --- */
 
 .main-content {
@@ -27,15 +28,12 @@
 }
 
 .home-heading {
-    font-size: 4.5rem;
-    font-weight: 800;
-    line-height: 1.1;
     margin-bottom: 2rem;
     filter: drop-shadow(0 0 30px var(--primary-glow));
 }
 
-.hero-subtitle {
-    font-size: 1.6rem;
+.hero-para {
+    font-size: var(--font-body-p);
     color: hsla(0, 0%, 100%, 0.85);
     margin-bottom: 3.5rem;
     font-weight: 400;
