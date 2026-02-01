@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url(./hompage.css);
 
 :root {
     /* Color Palette - Modern & Vibrant */
@@ -18,7 +19,17 @@
     /* Typography */
     --font-heading: 'Outfit', sans-serif;
     --font-body: 'Inter', sans-serif;
-
+    --font-heading-h1: 5rem;
+    --font-heading-h2: 2.75rem;
+    --font-heading-h3: 1.75rem;
+    --font-heading-h4: 1.25rem;
+    --font-heading-h5: 1rem;
+    --font-heading-h6: 0.85rem;
+    --font-body-p: 1.55rem;
+    --font-body-span: 0.85rem;
+    --font-body-small: 0.75rem;
+    --font-body-xsmall: 0.6rem;
+    --font-body-xs: 0.5rem;
 
 
     /* Glassmorphism Defaults */
@@ -158,24 +169,25 @@ a:hover {
 }
 
 h1 {
-    font-size: 4.5rem;
+    font-size: var(--font-heading-h1);
     line-height: 1.1;
     font-weight: 800;
+    letter-spacing: -0.02em;
 }
 
 h2 {
-    font-size: 2.75rem;
+    font-size: var(--font-heading-h2);
     font-weight: 700;
     margin-bottom: 1.5rem;
 }
 
 h3 {
-    font-size: 1.75rem;
+    font-size: var(--font-heading-h3);
     font-weight: 600;
 }
 
 h4 {
-    font-size: 1.25rem;
+    font-size: var(--font-heading-h4);
     font-weight: 600;
 }
 

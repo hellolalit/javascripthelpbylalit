@@ -1,4 +1,4 @@
-# 📘 The Ultimate "No-AI" Development Manual
+# 📘 RecruiterReady JS: The "No-AI" Development Manual
 
 **Project Philosophy**: This website is built with **Pure HTML, CSS, and JavaScript**. We do NOT use frameworks like Bootstrap, Tailwind, or React. This means the code is lightweight, fast, and completely under your control.
 
